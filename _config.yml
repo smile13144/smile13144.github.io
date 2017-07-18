@@ -12,10 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     ceeyang
+weibo_username:     LingXS520
 zhihu_username:     ceeyang
 github_username:    ceeyang
-twitter_username:   ceeyang
+twitter_username:   Daisy
 #facebook_username:  ceeyang
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -67,8 +67,8 @@ ga_domain: ceeyang.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "纵然相思入骨，纵然万劫不复，<br>我只愿你眉眼如初，风华如故，丹青不及你眉眼。"
+sidebar-avatar: /img/avatar-CeeYang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
