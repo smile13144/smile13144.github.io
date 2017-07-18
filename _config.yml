@@ -68,7 +68,7 @@ ga_domain: ceeyang.com
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "纵然相思入骨，纵然万劫不复，<br>我只愿你眉眼如初，风华如故，丹青不及你眉眼。"
-sidebar-avatar: /img/avatar-CeeYang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatro-ceeyang.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
