@@ -2,7 +2,7 @@
 <!-- saved from url=(0027)http://itzoo.info/love.html -->
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>睡前故事</title>
-        
+
         <link type="text/css" rel="stylesheet" href="./CSS/default.css">
         <script type="text/javascript" src="./JavaScript/jquery.min.js"></script>
         <script type="text/javascript" src="./JavaScript/jscex.min.js"></script>
@@ -20,7 +20,7 @@
             <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器哟~</div>
             <div id="wrap">
                <div id="text">
-                    <div id="code">                 
+                    <div id="code">
                     <span class="say">从前动物园里有一只北极熊宝宝</span><br>
                     <span class="say">他想和熊猫宝宝做朋友</span><br>
                     <span class="say">有一天</span><br>
@@ -39,14 +39,14 @@
                     </div>
                 </div>
                 <div id="clock-box">
-                    <a">小芝</a> 与 <a href="http://weibo.com/5391566488/follow?rightmod=1&wvr=6" target="_blank">小川</a> 相识的
+                    <a">丽萍</a> 与 <a>小川</a> 相识的
                         <div id="clock"></div>
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
             <audio src="love.mp3" autoplay="autoplay"></audio>
         </div>
-    
+
     <script>
     </script>
 
@@ -61,7 +61,7 @@
 
         var width = canvas.width();
         var height = canvas.height();
-        
+
         canvas.attr("width", width);
         canvas.attr("height", height);
 
@@ -87,7 +87,7 @@
                     [546, 357, 608, 252, 678, 221, 6, 100, [
                         [590, 293, 646, 277, 648, 271, 2, 80]
                     ]]
-                ]] 
+                ]]
             ],
             bloom: {
                 num: 700,
@@ -111,7 +111,7 @@
             x = e.pageX - offset.left;
             y = e.pageY - offset.top;
             if (seed.hover(x, y)) {
-                hold = 0; 
+                hold = 0;
                 canvas.unbind("click");
                 canvas.unbind("mousemove");
                 canvas.removeClass('hand');
@@ -182,7 +182,7 @@
         var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
             // JavaScriot 中的月份是从0开始的：0~11代表1~12月
-            together.setFullYear(2017, 8, 10);
+            together.setFullYear(2017, 5, 10);
             together.setHours(08);
             together.setMinutes(10);
             together.setSeconds(0);
