@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>客户端下载</title>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			body {
+				font-family: fzht;
+				background-color: #FFFFFF;
+			}
+			li{
+				list-style: none;
+			}
+			.wrap{
+				width: 242px;
+				margin: auto;
+				margin-top: 115px;
+			}
+			ul{
+				margin-top: 90px;
+			}
+			ul li{
+				display: block;
+				margin-bottom: 10px;
+			}
+			.msg{
+				position: absolute;
+				width: 320px;
+				top:0px;
+				display: none;
+				z-index: 101;
+			}
+			.mask{
+				position: absolute;
+				left: 0px;
+				top:0px;
+				width: 100%;
+				height: 100%;
+				filter: Alpha(opacity=30);
+				opacity: 0.3;
+				background-color: #000000;
+				z-index: 100;
+				display: none;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+		<script>
+			function is_weixn(){
+				 var ua = navigator.userAgent.toLowerCase();
+				 if(ua.match(/MicroMessenger/i)=='micromessenger') {
+				 return true;
+				 } else {
+				 return false;
+				 }
+			 }
+			function showMask(){
+				$(".mask").show();
+				$(".msg").show();
+			}
+			function hideMask(){
+				$(".mask").hide();
+				$(".msg").hide();
+			}
+			$(function(){
+				/*if(is_weixn()){
+					showMask();
+				}*/
+				//设置内容居中
+				var height=$(window).height();
+				height=(height-334)/2;
+				$(".wrap").css("margin-top",height);
+				//设置提示信息居中
+				var width=$(window).width();
+				$(".msg img").attr("width",(width-10)+"px");
+				height=$(".msg img").width()*224/320;
+				$(".msg img").attr("height",(height)+"px");
+				var left=(width-$(".msg img").width())/2;
+				$(".msg").css("left",left+"px");
+				//切换图片
+				$("img[data-click]").bind("touchstart",function(){
+					if(is_weixn()){
+						showMask();
+						return false;
+					}
+					/*var src=$(this).attr("data-click");
+					$(this).attr("src",src);
+					*/
+				});
+				$(".mask").bind("touchstart",function(){
+					hideMask();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<img src="img/download_logo_bg.png"/>
+			</header>
+			<ul>
+				<li><a href="http://ceeyang.com/app/baseproject.apk"><img src="img/download_btn_andr_n.png" data-click="img/download_btn_andr_click.png"/></a></li>
+				<li><a href="itms-services:///?action=download-manifest&url=https://dn-zxyapp.qbox.me/ceeyang_baseproject.plist"><img src="img/download_btn_iphone_n.png" data-click="img/download_btn_iphone_click.png"/></a></li>
+			</ul>
+		</div>
+		<div class="msg">
+			<img src="img/download_point.png" />
+		</div>
+		<div class="mask"></div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+{
+    "version": "8.5.5",
+    "vdesc": "Beta",
+    "description": "",
+    "reminderFlag":"1",
+    "durl": "http://yqdzcs.zhixueyun.com/app/zxy.apk",
+    "dsite": "",
+    "qrurl": "http://yqdzcs.zhixueyun.com/app/qr.png",
+    "type": "m",
+    "sites": [
+        {
+            "name": "",
+            "murl": "http://yqdzcs.zhixueyun.com/zxy-mobile-new"
+        }
+    ],
+    "project_config": {
+        "setting_ShowQRCode": "1",
+        "setting_CheckUpdate": "1",
+        "supportShare": "0",
+	"showGuide":"0",
+        "player_logo": "",
+        "loginPage_config": {
+            "login_logo": "",
+            "siteName_config": {
+                "siteName": "一汽大众",
+                "editEnabled": "0",
+                "hidden": "1"
+            },
+            "versionInfo_config": [
+                                   {
+                                   "name": "一汽-大众销售有限责任公司 大众品牌培训部",
+                                   "value": "",
+                                   "type": "0"
+                                   },
+                                   {
+                                   "name": "吉林省长春市普阳街3333号",
+                                   "value": "",
+                                   "type": "1"
+                                   }
+                                   ],
+            "versionInfo_TextAligment": "0"
+        },
+        "aboutPage_config": {
+            "set_logo": "",
+            "versionInfo_config": [
+                                   {
+                                   "name": "一汽-大众销售有限责任公司 大众品牌培训部",
+                                   "value": "",
+                                   "type": "0"
+                                   },
+                                   {
+                                   "name": "吉林省长春市普阳街3333号",
+                                   "value": "",
+                                   "type": "1"
+                                   }
+                                   ],
+            "versionInfo_TextAligment": "0",
+            "appName": "版本信息更新"
+        },
+        "getPasswordPage_config": {
+            "siteName_config": {
+                "siteName": "一汽大众",
+                "editEnabled": "0",
+                "hidden": "1"
+            }
+        }
+    }
+}
