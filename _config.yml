@@ -1,10 +1,10 @@
 # Site settings
 title: CeeYang
-SEOTitle: 杨西川的博客 | Cee Yang
+SEOTitle: 杨德路的博客 | Cee Yang
 header-img: img/home-bg.jpg
 email: yangxichuan2016@gmail.com
 description: "集 iOS 工程师，前端工程师，二次元，古风控于一身的文艺逗比。"
-keyword: "杨西川, CeeYang, 博客, 个人网站, 互联网, 前端, 设计, 产品"
+keyword: "杨德路, CeeYang, 博客, 个人网站, 互联网, 前端, 设计, 产品"
 url: "http://ceeyang.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
