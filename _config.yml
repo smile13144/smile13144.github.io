@@ -1,5 +1,5 @@
 # Site settings
-title: CeeYang
+title: Smile
 SEOTitle: 杨得路的博客 | Smile
 header-img: img/home-bg.jpg
 email: yangdelu2016@gmail.com
@@ -119,5 +119,8 @@ friends: [
     },{
         title: "前端神盾局",
         href: "http://wepiaofei.github.io/blog/"
+    }，{
+        title: "Surprise",
+        href: "http://smile13144.com/surprise"
     }
 ]
