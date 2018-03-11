@@ -1,11 +1,11 @@
 # Site settings
 title: CeeYang
-SEOTitle: 杨德路的博客 | Cee Yang
+SEOTitle: 杨得路的博客 | Smile
 header-img: img/home-bg.jpg
-email: yangxichuan2016@gmail.com
+email: yangdelu2016@gmail.com
 description: "集 iOS 工程师，前端工程师，二次元，古风控于一身的文艺逗比。"
-keyword: "杨德路, CeeYang, 博客, 个人网站, 互联网, 前端, 设计, 产品"
-url: "http://ceeyang.com"              # your host, for absolute URL
+keyword: "杨得路, Smile, 博客, 个人网站, 互联网, 前端, 设计, 产品"
+url: "http://smile13144.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -56,7 +56,7 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
@@ -67,8 +67,8 @@ ga_domain: ceeyang.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "纵然相思入骨，纵然万劫不复，<br>我只愿你眉眼如初，风华如故，丹青不及你眉眼。"
-sidebar-avatar: /img/avatro-ceeyang.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "纵然相思入骨，纵然万劫不复，<br>我只愿你眉眼如初，风华如故!"
+sidebar-avatar: /img/avatro-ceeyang.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
